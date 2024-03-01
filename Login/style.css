@@ -9,7 +9,7 @@ body {
      background-image: cover;
      background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(imagens/fundo.jpg);
+    background-image: url(imagens/novo.png);
 }
 
 body::before {
@@ -43,7 +43,7 @@ body::before {
     max-width: 500px;
     height: 550px;
     margin-left: 50%;
-    background-color: rgba(1, 9, 14, 0.596);
+    background-color: rgba(7, 160, 255, 0.292);
     border-radius: 10px;
     box-sizing: border-box;
     transform: translateX(-50%);
@@ -58,7 +58,7 @@ body::before {
 .login_body input {
     height: 50px;
     width: 100%;
-    color: rgb(62, 54, 54);
+    color: black;
     border: none;
     border-radius: 5px;
     padding-left: 15px;
@@ -67,7 +67,7 @@ body::before {
 }
 
 .login_body input:hover {
-    background-color: #3d3e3e;
+    background-color: #1c5858;
 }
 
 .input_box {
@@ -78,7 +78,7 @@ body::before {
     height: 50px;
     width: 100%;
     color: white;
-    background-color: green;
+    background-color: rgba(38, 102, 102, 0.671);
     border-radius: 3px;
     font-weight: bold;
     font-size: 16px;
@@ -87,13 +87,13 @@ body::before {
 }
 
 .login_body button:hover {
-    background-color: #352f2f;
+    background-color: #235057;
     cursor: pointer;
 }
 
 .support {
     display: flex;
-    color: rgb(94, 92, 92);
+    color: black;
     justify-content: space-between;
     font-size: 12px;
     margin-bottom: 5px;
@@ -116,7 +116,7 @@ body::before {
 
 .help a {
     text-decoration: none;
-    color: rgb(130, 130, 130);
+    color: black;
 }
 
 .help a:hover {
@@ -127,7 +127,7 @@ body::before {
     display: flex;
     align-items: center;
     width: 100%;
-    color: rgb(150, 149, 149);
+    color: black;
 }
 
 .login_facebook span {
@@ -137,11 +137,11 @@ body::before {
 
 .login_facebook span a {
     text-decoration: none;
-    color: rgb(135, 133, 133);
+    color: black;
 }
 
 .sign_up {
-    color: rgb(135, 131, 131);
+    color: black;
     font-size: 16px;
 }
 
@@ -156,7 +156,7 @@ body::before {
 }
 
 .terms {
-    color: rgb(143, 140, 140);
+    color: black;
     font-size: 13px;
 }
 
